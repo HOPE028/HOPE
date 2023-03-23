@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
+import logo from '../SVG/main-logo.svg'
 
 export default function Navbar() {
   return (
@@ -13,7 +14,9 @@ export default function Navbar() {
       </a>
 
       <h5 className='navbar-item navbar-center'>
-        <Link to='/'>HOPE</Link>
+        <Link to='/'>
+          <img src={logo} alt='Logo Source' className='logo-img' />
+        </Link>
       </h5>
 
       <h5 className='navbar-item navbar-right'>

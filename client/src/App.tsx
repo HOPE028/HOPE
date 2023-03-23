@@ -11,7 +11,11 @@ function App() {
 
       <div style={{ marginTop: 'calc(5vh + 50px)' }}></div>
 
-      <h1>Tools:</h1>
+      <h1>Projects</h1>
+      <h3>
+        {' '}
+        <i> Some of the tools currently available..</i>
+      </h3>
 
       <HopeProjects />
     </div>

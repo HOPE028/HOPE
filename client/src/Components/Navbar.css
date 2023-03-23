@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
   z-index: 999;
-  background: rgb(68, 2, 98);
+  background: #4a148c;
 }
 
 .navbar-item {
@@ -58,5 +58,17 @@
     display: block;
     margin: 0 10px;
     transition: color 0.3s ease;
+  }
+}
+
+/* SVG crop */
+
+.logo-img {
+  clip-path: inset(20% 20% 40% 20%);
+}
+
+@media screen and (max-width: 600px) {
+  .logo-img {
+    width: 100%;
   }
 }
