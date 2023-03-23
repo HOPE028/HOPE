@@ -28,10 +28,9 @@ export default function About() {
           <br />
           Our projects are diverse, but they all share a common theme of
           identifying problems in the learning process and finding innovative
-          solutions. Whether it's an app that helps you stay organized and on
-          track with your studies or a tool that simplifies complex concepts, we
-          aim to provide practical solutions that make learning easier and more
-          accessible for everyone.
+          solutions. Whether it's an app that helps you find data on any country
+          or a tool that graphs world progress, we aim to provide practical
+          solutions that make learning easier and more accessible for everyone.
           <br />
           <br />
           What sets HOPE apart is our commitment to open-source software. We
@@ -40,11 +39,6 @@ export default function About() {
           have made all our tools available for free, with the aim of creating a
           community of learners who can share their knowledge and experiences to
           help each other succeed.
-          <br />
-          We understand that the learning process is unique for everyone, and
-          our tools are designed to cater to a range of learning styles and
-          preferences. Whether you are a visual learner, an auditory learner, or
-          prefer hands-on learning, we have a tool that will suit your needs.
           <br />
           <br />
           At HOPE, we are dedicated to helping learners of all ages and
