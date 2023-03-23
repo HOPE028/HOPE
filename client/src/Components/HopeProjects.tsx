@@ -1,22 +1,12 @@
 import ProjectsGrid from './ProjectsGrid'
+import './Projects.css'
 
 const projectsData = [
   {
-    title: 'Project 1',
-    description: 'This is the first project.',
-    githubLink: 'https://github.com/user/repo1',
-    image: 'https://via.placeholder.com/150',
-  },
-  {
-    title: 'Project 2',
-    description: 'This is the second project.',
-    githubLink: 'https://github.com/user/repo2',
-    image: 'https://via.placeholder.com/150',
-  },
-  {
-    title: 'Project 3',
-    description: 'This is the third project.',
-    githubLink: 'https://github.com/user/repo3',
+    title: 'Country Compare-er',
+    description:
+      'Country Compare-er lets you compare economic, demographic, social, and military statistics of different countries for free. It gathers data from reliable sources like the World Bank and the United Nations and is part of the HOPE open-source project.',
+    githubLink: 'https://country-compare-er.netlify.app/',
     image: 'https://via.placeholder.com/150',
   },
 ]

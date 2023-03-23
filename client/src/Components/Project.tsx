@@ -10,7 +10,7 @@ const Project = ({ title, description, githubLink, image }: ProjectProps) => {
     <div className='project-card'>
       <h2>{title}</h2>
       <p>{description}</p>
-      <a href={githubLink}>GitHub Link</a>
+      <a href={githubLink}>App Link</a>
     </div>
   )
 }
