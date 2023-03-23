@@ -4,6 +4,7 @@ type ProjectData = {
   title: string
   description: string
   githubLink: string
+  image: string
 }
 
 type ProjectsGridProps = {
@@ -19,6 +20,7 @@ const ProjectsGrid = ({ projects }: ProjectsGridProps) => {
           title={project.title}
           description={project.description}
           githubLink={project.githubLink}
+          image={''}
         />
       ))}
     </div>

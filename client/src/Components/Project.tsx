@@ -2,9 +2,10 @@ type ProjectProps = {
   title: string
   description: string
   githubLink: string
+  image: string
 }
 
-const Project = ({ title, description, githubLink }: ProjectProps) => {
+const Project = ({ title, description, githubLink, image }: ProjectProps) => {
   return (
     <div className='project-card'>
       <h2>{title}</h2>

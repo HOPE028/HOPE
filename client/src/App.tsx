@@ -1,14 +1,16 @@
 import React from 'react'
 import './App.css'
 import HopeProjects from './Components/HopeProjects'
+import Navbar from './Components/Navbar'
 
 function App() {
   return (
     <div className='App'>
-      <h1>HOPE</h1>
-      <h3>__In Progress__</h3>
+      <Navbar />
 
-      {/* <HopeProjects /> */}
+      <div style={{ marginTop: 'calc(5vh + 50px)' }}></div>
+
+      <HopeProjects />
     </div>
   )
 }
